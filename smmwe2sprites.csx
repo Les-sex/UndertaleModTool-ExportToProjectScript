@@ -45,26 +45,8 @@ await ExportSprites();
 // Export backgrounds
 await ExportBackground();
 
-// Export objects
-await ExportGameObjects();
-
 // Export rooms
-await ExportRooms();
-
-// Export sounds
-await ExportSounds();
-
-// Export scripts
-await ExportScripts();
-
-// Export fonts
-await ExportFonts();
-
-// Export paths
-await ExportPaths();
-
-// Export timelines
-await ExportTimelines();
+await ExportRooms()
 
 // Generate project file
 GenerateProjectFile();
